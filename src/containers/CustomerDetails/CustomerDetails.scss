@@ -1,0 +1,183 @@
+.customerDetails {
+  display: flex;
+  height: 100%;
+  flex-direction: column;
+  .name {
+    font-size: 18px;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    margin-top: 26px;
+  }
+  .DetailTable {
+    flex: 1;
+    width: 1312px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(239, 242, 247, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 22px 25px 33px 20px;
+    .statics {
+      margin-bottom: 22px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+      font-weight: 400;
+      color: rgba(135, 152, 173, 1);
+      line-height: 36px;
+      i {
+        font-size: 14px;
+        font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        line-height: 36px;
+        padding-left: 10px;
+      }
+      .firstspan {
+        margin-right: 32px;
+      }
+      .addbtn {
+        width: 120px;
+        height: 36px;
+        float: right;
+        margin-right: 38px;
+        i {
+          color: white;
+        }
+      }
+    }
+    .operation {
+      span {
+        cursor: pointer;
+        font-size: 14px;
+        font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+        font-weight: 500;
+        color: rgba(59, 159, 255, 1);
+      }
+      .look {
+        margin-right: 24px;
+      }
+    }
+  }
+  .CustomerDetailsTable {
+    .ant-pagination {
+      display: none;
+    }
+  }
+}
+.dialog,
+.down {
+  width: 400px !important;
+  height: 250px;
+  .ant-modal-header,
+  .ant-modal-footer {
+    border: 0;
+  }
+  .ant-modal-content {
+    height: 100%;
+  }
+  .ant-modal-footer {
+    padding-bottom: 32px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    button {
+      width: 120px;
+      height: 36px;
+    }
+    & > div {
+      text-align: center;
+    }
+    .ant-btn-primary {
+      margin-left: 60px;
+    }
+  }
+  .modalTxt {
+    font-size: 16px;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    font-weight: 500;
+    color: rgba(51, 51, 51, 1);
+    text-align: center;
+  }
+}
+
+.down {
+  width: 630px !important;
+  height: 456px;
+  .ant-modal-body {
+    padding-left: 75px;
+    padding-top: 38px;
+  }
+  .leftTitle {
+    font-size: 16px;
+    font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(135, 152, 173, 1);
+  }
+  .authordiv {
+    margin-bottom: 16px;
+  }
+  .content {
+    font-size: 16px;
+    font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(59, 72, 89, 1);
+  }
+  .table {
+    margin-top: 32px;
+  }
+  .downTable {
+    margin-top: 32px;
+    width: 480px;
+    border: 1px solid #e8e8e8;
+    border-radius: 5px;
+    .ant-table-thead {
+      display: none;
+    }
+    tr {
+      height: 50px;
+      box-sizing: border-box;
+      td {
+        padding: 0;
+      }
+    }
+  }
+  .ant-pagination {
+    display: none;
+  }
+
+  .downIcon {
+    cursor: pointer;
+    img {
+      width: 13px;
+      height: 16px;
+      margin-left: 8px;
+    }
+  }
+  .downCodeIcon {
+    img {
+      width: 21px;
+      height: 20px;
+      margin-right: 8px;
+    }
+  }
+  .ant-modal-title {
+    font-size: 20px;
+    font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+    font-weight: 500;
+    color: rgba(59, 72, 89, 1);
+  }
+}
+
+//取消颜色样式
+.cancelBtnText {
+  background: linear-gradient(
+    180deg,
+    rgba(230, 230, 230, 1) 0%,
+    rgba(227, 227, 227, 1) 100%
+  );
+  border-color: transparent;
+  color: rgba(102, 102, 102, 1);
+  box-shadow: 0px 2px 4px 0px rgba(0, 0, 0, 0.05);
+  border-radius: 4px;
+  border: 1px solid rgba(0, 0, 0, 0.03);
+}

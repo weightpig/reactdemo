@@ -1,0 +1,53 @@
+.crumb {
+  .first,
+  .spancenter,
+  .last {
+    width: 141px;
+    height: 36px;
+    padding-left: 18px;
+    padding-right: 36px;
+    background: rgba(0, 0, 0, 0.1);
+    font-size: 14px;
+    font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(51, 51, 51, 1);
+    line-height: 36px;
+    text-align: center;
+    display: inline-block;
+    position: relative;
+    cursor: pointer;
+  }
+  .first .after,
+  .spancenter .before {
+    content: "";
+    position: absolute;
+    height: 0px;
+    right: 0px;
+    width: 0px;
+    border-width: 18px;
+    border-color: #f8f8f8 #f8f8f8 #f8f8f8 transparent;
+    border-style: solid;
+  }
+  .spancenter {
+    margin-left: -18px;
+  }
+  .spancenter .after {
+    content: "";
+    position: absolute;
+    height: 0px;
+    left: 0px;
+    top: 0;
+    width: 0px;
+    border-width: 18px;
+    border-color: transparent transparent transparent #f8f8f8;
+    border-style: solid;
+  }
+  .active {
+    background: rgba(44, 167, 248, 1);
+    cursor: pointer;
+    color: #fff !important;
+  }
+  .spancenter {
+    margin-left: -18px;
+  }
+}

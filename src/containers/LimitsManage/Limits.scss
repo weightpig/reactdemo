@@ -1,0 +1,123 @@
+.limits {
+  flex-direction: column;
+  height: 100%;
+  display: flex;
+  .spanMiddle {
+    vertical-align: middle;
+  }
+  .filter {
+    width: 1312px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(239, 242, 247, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 32px 64px 32px 31px;
+    box-sizing: border-box;
+    .authorType,
+    .createPerson,
+    .activationCode {
+      display: inline-block;
+      width: 70px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+      font-weight: 500;
+      color: rgba(46, 56, 77, 1);
+      text-align: right;
+    }
+    .authorTypeSelect,
+    .createPersonSelect,
+    .activationCodeInp {
+      width: 240px;
+      height: 36px;
+    }
+    .createPerson {
+      margin-left: 24px;
+      width: 62px;
+    }
+    .author {
+      margin-left: 24px;
+      width: 200px;
+      height: 36px;
+    }
+    .authorObj {
+      padding: 0 10px;
+    }
+    .authorObjInp {
+      width: 328px;
+      height: 36px;
+    }
+    .filterChild {
+      margin-top: 32px;
+    }
+    .filterBtn {
+      margin-right: 16px;
+    }
+    .filterBtn,
+    .reSetBtn {
+      width: 80px;
+      height: 36px;
+      float: right;
+    }
+  }
+  .DetailTable {
+    flex: 1;
+    width: 1312px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(239, 242, 247, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 22px 25px 33px 20px;
+    position: relative;
+    .statics {
+      margin-bottom: 22px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+      font-weight: 400;
+      color: rgba(135, 152, 173, 1);
+      line-height: 36px;
+      i {
+        font-size: 14px;
+        font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+        font-weight: 500;
+        color: rgba(51, 51, 51, 1);
+        line-height: 36px;
+        padding-left: 10px;
+      }
+      .firstspan {
+        margin-right: 32px;
+      }
+      .addbtn {
+        width: 120px;
+        height: 36px;
+        float: right;
+        margin-right: 38px;
+        i {
+          color: white;
+        }
+      }
+    }
+    .operation {
+      span {
+        cursor: pointer;
+        font-size: 14px;
+        font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+        font-weight: 500;
+        color: rgba(59, 159, 255, 1);
+      }
+      .look {
+        margin-right: 24px;
+      }
+    }
+    .authorTable {
+      .ant-pagination {
+        display: none;
+      }
+    }
+  }
+}
+//select placeholder
+// .ant-select-selection__placeholder {
+//   display: block !important;
+// }

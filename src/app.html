@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" style="min-width: 1000px;">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>授权管理后台系统</title>
+  </head>
+
+  <body>
+    <div id="root"></div>
+  </body>
+  <script>
+    (function() {
+      document.body.style.fontSize = "14px";
+      const setRem = () => {
+        let vw = document.getElementsByTagName("html")[0].offsetWidth;
+        document.documentElement.style.fontSize = vw / 10 + "px";
+      };
+      setRem();
+      window.onresize = setRem;
+    })();
+  </script>
+</html>

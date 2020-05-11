@@ -1,0 +1,117 @@
+.authorDetails {
+  display: flex;
+  flex-direction: column;
+  height: 100%;
+  .tab {
+    flex: 1;
+    width: 1312px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(239, 242, 247, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 0px 25px 0px 20px;
+    position: relative;
+    & > div {
+      height: 100%;
+    }
+    .authoeTab {
+      padding-left: 20px;
+      padding-top: 30px;
+      & > div {
+        margin-bottom: 18px;
+      }
+    }
+    .head {
+      width: 70px;
+      height: 14px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+      font-weight: 400;
+      color: rgba(135, 152, 173, 1);
+      line-height: 20px;
+    }
+    .content {
+      width: 385px;
+      height: 14px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+      font-weight: 400;
+      color: rgba(46, 56, 77, 1);
+      line-height: 20px;
+    }
+    .btns {
+      position: absolute;
+      left: 20px;
+      bottom: 0;
+      button {
+        width: 120px;
+        height: 36px;
+      }
+    }
+    .cancel {
+      margin-right: 32px;
+    }
+  }
+  .minTab {
+    width: 1312px;
+    height: 138px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(239, 242, 247, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 0px 25px 0px 20px;
+  }
+  .showTable {
+    margin-top: 24px;
+    flex: 1;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(239, 242, 247, 1);
+    border-radius: 8px;
+    padding: 0px 25px 0px 20px;
+  }
+  .noneTable {
+    display: none;
+  }
+  .filter {
+    padding: 30px 0 30px 0;
+    .time {
+      width: 44px;
+      height: 36px;
+      line-height: 36px;
+      font-size: 14px;
+      font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+      font-weight: 500;
+      color: rgba(46, 56, 77, 1);
+    }
+    .time {
+      margin-left: 24px;
+      width: 62px;
+    }
+    .interval {
+      margin-left: 9px;
+      margin-right: 9px;
+    }
+    .filterBtn {
+      margin-right: 63px;
+    }
+    .filterBtn,
+    .reSetBtn {
+      float: right;
+      width: 100px;
+      height: 36px;
+    }
+  }
+  .ant-tabs-bar {
+    margin-bottom: 0;
+  }
+  .allNum {
+    display: inline-block;
+    height: 14px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(135, 152, 173, 1);
+    line-height: 21px;
+    padding: 32px 0 32px 0;
+  }
+}

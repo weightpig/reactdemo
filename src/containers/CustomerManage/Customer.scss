@@ -1,0 +1,65 @@
+.customer {
+  display: flex;
+  flex-direction: column;
+  .crumb {
+    display: inline-block;
+  }
+  .formDiv {
+    position: absolute;
+    right: 24px;
+  }
+  .form {
+    display: inline-block;
+    float: right;
+    width: 522px;
+    .contractSelect {
+      width: 112px;
+      margin-right: 10px;
+      vertical-align: top;
+    }
+    .search {
+      width: 400px;
+      height: 36px;
+      background: rgba(255, 255, 255, 1);
+      border-radius: 4px;
+      vertical-align: top;
+    }
+  }
+  .contractTable {
+    flex: 1;
+    width: 1312px;
+    background: rgba(255, 255, 255, 1);
+    box-shadow: 0px 2px 4px 0px rgba(239, 242, 247, 1);
+    border-radius: 8px;
+    margin-top: 24px;
+    padding: 22px 25px 33px 20px;
+    .operation {
+      span {
+        cursor: pointer;
+        font-size: 14px;
+        font-family: SourceHanSansCN-Medium, SourceHanSansCN;
+        font-weight: 500;
+        color: rgba(59, 159, 255, 1);
+      }
+      .look {
+        margin-right: 24px;
+      }
+    }
+    .Table {
+      .ant-pagination {
+        display: none;
+      }
+    }
+  }
+}
+
+//改变select高度的公共样式
+.selectHeight {
+  vertical-align: middle;
+  .ant-select-selection--single {
+    height: 36px;
+    .ant-select-selection-selected-value {
+      line-height: 36px;
+    }
+  }
+}

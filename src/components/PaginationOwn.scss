@@ -1,0 +1,97 @@
+//分页样式
+.ant-pagination {
+  margin-right: 16px !important;
+  .ant-pagination-item {
+    border: 1px solid #efefef;
+    width: 30px;
+    height: 30px;
+  }
+  .ant-pagination-item-active {
+    background-color: #1890ff;
+    a {
+      color: #ffffff;
+    }
+  }
+  .ant-pagination-prev,
+  .ant-pagination-next {
+    a {
+      width: 80px;
+      height: 32px;
+      display: inline-block;
+      text-align: center;
+      background: linear-gradient(
+        180deg,
+        rgba(255, 255, 255, 1) 0%,
+        rgba(253, 253, 253, 1) 100%
+      );
+      box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.02),
+        0px 1px 0px 0px rgba(255, 255, 255, 0.6);
+      border-radius: 4px;
+      border: 1px solid rgba(0, 0, 0, 0.08);
+    }
+  }
+  .ant-pagination-total-text {
+    margin-right: 24px;
+  }
+}
+.jumpPage {
+  display: inline-block;
+  margin-right: 38px;
+  font-size: 14px;
+  font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+  font-weight: 400;
+  color: rgba(153, 153, 153, 1);
+  margin-top: 42px;
+  float: right;
+  padding-bottom: 32px;
+  .ant-pagination {
+    display: inline-block;
+  }
+  .okBtn {
+    display: inline-block;
+    cursor: pointer;
+    margin-left: 21px;
+    width: 56px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(253, 253, 253, 1) 100%
+    );
+    color: rgba(51, 51, 51, 1);
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.02),
+      0px 1px 0px 0px rgba(255, 255, 255, 0.6);
+    height: 32px;
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    text-align: center;
+    line-height: 0.2rem;
+  }
+  input {
+    width: 32px;
+    height: 32px;
+    background: linear-gradient(
+      180deg,
+      rgba(255, 255, 255, 1) 0%,
+      rgba(253, 253, 253, 1) 100%
+    );
+    box-shadow: 0px 1px 0px 0px rgba(0, 0, 0, 0.02),
+      0px 1px 0px 0px rgba(255, 255, 255, 0.6);
+    border-radius: 4px;
+    border: 1px solid rgba(0, 0, 0, 0.08);
+    margin: 0 12px;
+    text-align: center;
+  }
+  .pagesize {
+    display: inline-block;
+    height: 34px;
+    font-size: 14px;
+    font-family: SourceHanSansCN-Normal, SourceHanSansCN;
+    font-weight: 400;
+    color: rgba(59, 159, 255, 1);
+    line-height: 34px;
+    margin-right: 16px;
+    & > span {
+      color: rgba(51, 51, 51, 1);
+    }
+  }
+}

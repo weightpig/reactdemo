@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="136px" height="136px" viewBox="0 0 136 136" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 58 (84663) - https://sketch.com -->
+    <title>激活成功页</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <circle id="path-1" cx="58" cy="58" r="58"></circle>
+        <filter x="-15.9%" y="-12.5%" width="131.9%" height="131.9%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="4" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="5.5" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0.615686275   0 0 0 0 0.866666667   0 0 0 0 0.133333333  0 0 0 0.52 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+        <filter x="-5.2%" y="-5.2%" width="110.3%" height="110.3%" filterUnits="objectBoundingBox" id="filter-3">
+            <feGaussianBlur stdDeviation="2" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <filter x="-163.0%" y="-163.0%" width="426.1%" height="426.1%" filterUnits="objectBoundingBox" id="filter-4">
+            <feGaussianBlur stdDeviation="25" in="SourceGraphic"></feGaussianBlur>
+        </filter>
+        <path d="M46,81 C43.790861,81 42,79.209139 42,77 C42,74.790861 43.790861,73 46,73 L66,73 L66,25 C66,22.790861 67.790861,21 70,21 C72.209139,21 74,22.790861 74,25 L74,77 L74,77 C74,79.1421954 72.3160315,80.8910789 70.1996403,80.9951047 L70,81 L70,81 L46,81 Z" id="path-5"></path>
+        <filter x="-32.8%" y="-19.2%" width="184.4%" height="145.0%" filterUnits="objectBoundingBox" id="filter-6">
+            <feOffset dx="3" dy="2" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="4" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feComposite in="shadowBlurOuter1" in2="SourceAlpha" operator="out" result="shadowBlurOuter1"></feComposite>
+            <feColorMatrix values="0 0 0 0 0.536147817   0 0 0 0 0.80785779   0 0 0 0 0.00803547573  0 0 0 0.830965909 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
+    </defs>
+    <g id="页面-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="激活成功页" transform="translate(-308.000000, -216.000000)">
+            <g id="编组-2" transform="translate(308.000000, 216.000000)">
+                <g id="编组" transform="translate(9.000000, 6.000000)">
+                    <g id="投影" transform="translate(58.000000, 58.000000) scale(-1, 1) translate(-58.000000, -58.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                        <use fill="#8FD800" fill-rule="evenodd" xlink:href="#path-1"></use>
+                    </g>
+                    <circle id="反光白" fill-opacity="0.91" fill="#FFFFFF" filter="url(#filter-3)" transform="translate(58.000000, 59.000000) scale(-1, 1) translate(-58.000000, -59.000000) " cx="58" cy="59" r="58"></circle>
+                    <circle id="颜色" fill="#8FD800" transform="translate(58.000000, 58.000000) scale(-1, 1) translate(-58.000000, -58.000000) " cx="58" cy="58" r="58"></circle>
+                    <circle id="椭圆形备份-2" fill-opacity="0.7" fill="#FFFFFF" filter="url(#filter-4)" transform="translate(58.000000, 58.000000) scale(-1, 1) translate(-58.000000, -58.000000) " cx="58" cy="58" r="23"></circle>
+                    <g id="形状结合" transform="translate(58.000000, 51.000000) rotate(-315.000000) translate(-58.000000, -51.000000) ">
+                        <use fill="black" fill-opacity="1" filter="url(#filter-6)" xlink:href="#path-5"></use>
+                        <use fill-opacity="0.9" fill="#FFFFFF" fill-rule="evenodd" xlink:href="#path-5"></use>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
