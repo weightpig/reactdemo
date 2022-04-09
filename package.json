@@ -42,7 +42,7 @@
     "axios": "^0.19.0",
     "babel-plugin-import": "^1.13.0",
     "cssgrace": "^3.0.0",
-    "moment": "^2.24.0",
+    "moment": "^2.29.2",
     "postcss-loader": "^3.0.0",
     "postcss-px2rem-exclude": "0.0.6",
     "postcss-pxtorem": "^4.0.1",
